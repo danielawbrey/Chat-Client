@@ -1,0 +1,66 @@
+body {
+    background-color: black;
+}
+
+.table {
+    column-count: 2;
+    display: table;
+    margin-left: 5%;
+    float: left;
+    width: 100%;
+    overflow: hidden;
+}
+
+.rightColumn, .leftColumn {
+    float: left;
+    padding-bottom: 100%;
+    margin-bottom: -100%;
+}
+
+.leftColumn {
+    flex: 1;
+    display: table-column;
+    float: left;
+    background-color: darkmagenta;
+    width: 20%;
+    text-align: center;
+}
+
+.rightColumn {
+    flex: 1;
+    display: table-column;
+    float: right;
+    width: 80%;
+}
+
+#header {
+    float: left;
+    width: 80%;
+    text-align: center;
+    background-color: rebeccapurple;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+#timeBar {
+    float: left;
+    width: 80%;
+    text-align: center;
+    background-color: purple;
+}
+
+h3 {
+    color: white;
+    font-size: 16px;
+}
+
+#contentContainer {
+    float: left;
+    width: 80%;
+    color: white;
+    text-align: center;
+    background-color: mediumpurple;
+}
