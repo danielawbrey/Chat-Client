@@ -78,11 +78,15 @@ form h3 {
 }
 
 #textDisplay {
+    margin-top: 20px;
     width: 60%;
     height: 500px;
+    margin-bottom: 20px;
 }
 
 #inputBox {
+    margin-left: auto;
+    margin-right: auto;
     width: 60%;
     height: 100px;
     margin-bottom: 20px;
@@ -95,7 +99,25 @@ form h3 {
     width: 100%;
 }
 
+#sendButton {
+  float: left;
+  height: 100px;
+  width: 20%;
+  background-color: #20008c;
+  border: none;
+}
 
+#sendButton h3 {
+  color: white;
+  text-align: center;
+}
+
+#inputField {
+    height: 100px;
+    float: left;
+    width: 80%;
+    border: none;
+}
 
 
 
